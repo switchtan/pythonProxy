@@ -15,10 +15,9 @@ import requests
 # import datetime
 # https://segmentfault.com/q/1010000000175242
 
-dict = {'www.n77888.com': 'http://www.champaignchinese.com'
-    , 'www.0008mu.com': 'http://www.0001688.com'
+dict = {'www.n77888.com': 'http://www.champaignchinese.com', 'www.0008mu.com': 'http://www.0001688.com'
     , 'www.bismara22.com': 'http://www.iintern.com'
-    , 'www.pk10kaijiang8.com':'https://www.canreachinternational.com'}
+    ,'www.pk10kaijiang8.com':'https://www.canreachinternational.com'}
 
 class CacheHandler(BaseHTTPRequestHandler):
     def do_GET(self):
